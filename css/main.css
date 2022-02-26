@@ -329,6 +329,107 @@ html {
   font-size: 1.6rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   color: #fff;
+}
+
+.partners-container .partners {
+  margin: 0 2rem;
+}
+
+.partners-container .partners--action__content {
+  margin: 5rem 3rem;
+}
+
+.partners-container .partners--action__content h2 {
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 4.6rem;
+  text-align: center;
+  margin: 7px 0;
+}
+
+.partners-container .partners--action__content h4 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.partners-container .partners--list {
+  margin: 3rem 7rem 0 7rem;
+}
+
+.partners-container .partners--list--item {
+  padding-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.partners-container .partners--list--item h6 {
+  text-align: center;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.partners-container .partners--list--item img {
+  margin: 1.5rem;
+}
+
+.partners-container .partners--list--item p {
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.partners-container .partners .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.partners-container .partners .button-container .text-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  width: 236px;
+  background-color: #38a3f1;
+  border-radius: 3.5rem;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  text-align: center;
+  color: #fff;
+  margin: 5rem 7rem 8rem 7rem;
 }
