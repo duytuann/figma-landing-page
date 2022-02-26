@@ -320,13 +320,13 @@ html {
 }
 
 .cta-container .cta--action__subscribe button {
-  color: #fff;
   height: 5rem;
   background-color: #ef2779;
   border-radius: 3.5rem;
   width: 100%;
   margin: 1.2rem 0;
   font-size: 1.6rem;
+  border: none;
 }
 
 h1,
