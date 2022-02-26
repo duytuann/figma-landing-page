@@ -1,0 +1,96 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  background-color: #252b42;
+}
+
+.header-container {
+  background-image: url("../assets/background_mobile.png");
+}
+
+.header-container .nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.7rem 1.6rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-container .nav-container__brand {
+  margin: 1rem;
+}
+
+.header-container .content-container .content {
+  padding: 3rem 2rem;
+}
+
+.header-container .content-container .content--intro h2 {
+  padding: 5rem 3rem 0.7rem 3rem;
+  margin: 1rem;
+  color: #fff;
+  font-size: 4.6rem;
+  font-weight: 400;
+  line-height: 5.7rem;
+  text-align: center;
+}
+
+.header-container .content-container .content--describe {
+  margin: 1rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #fff;
+}
+
+.header-container .content-container .content .flatbrowser {
+  max-width: 100%;
+}
+
+.header-container .content-container .content .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-container .content-container .content .button-container .text-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  width: 236px;
+  background-color: #fff;
+  border-radius: 3.5rem;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  text-align: center;
+  color: #38a3f1;
+  margin: 5rem 7rem;
+}

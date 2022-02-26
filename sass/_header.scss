@@ -1,0 +1,67 @@
+.header-container {
+  background-image: url("../assets/background_mobile.png");
+
+  .nav-container {
+    display: flex;
+    padding: 1.7rem 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+
+    &__brand {
+      margin: 1rem;
+    }
+  }
+
+  .content-container {
+    .content {
+      padding: 3rem 2rem;
+
+      &--intro {
+        h2 {
+          padding: 5rem 3rem 0.7rem 3rem;
+          margin: 1rem;
+          color: $text-color;
+          font-size: 4.6rem;
+          font-weight: 400;
+          line-height: 5.7rem;
+          text-align: center;
+        }
+      }
+
+      &--describe {
+        margin: 1rem;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        color: $text-color;
+      }
+
+      .flatbrowser {
+        max-width: 100%;
+      }
+
+      .button-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .text-button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 65px;
+          width: 236px;
+          background-color: #fff;
+          border-radius: 3.5rem;
+          font-weight: bold;
+          font-size: 2.2rem;
+          line-height: 3.3rem;
+          text-align: center;
+          color: #38a3f1;
+          margin: 5rem 7rem;
+        }
+      }
+    }
+  }
+}
