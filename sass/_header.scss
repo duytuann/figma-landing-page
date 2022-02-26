@@ -1,5 +1,6 @@
 .header-container {
   background-image: url("../assets/background_mobile.png");
+  max-height: 827px;
 
   .nav-container {
     display: flex;
@@ -59,7 +60,7 @@
           line-height: 3.3rem;
           text-align: center;
           color: #38a3f1;
-          margin: 3.85rem 7rem;
+          margin: 5rem 7rem;
         }
       }
     }
