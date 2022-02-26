@@ -35,7 +35,7 @@ html {
 }
 
 .header-container .content-container .content {
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 0 2rem;
 }
 
 .header-container .content-container .content--intro h2 {
@@ -92,5 +92,5 @@ html {
   line-height: 3.3rem;
   text-align: center;
   color: #38a3f1;
-  margin: 5rem 7rem;
+  margin: 3.85rem 7rem;
 }
