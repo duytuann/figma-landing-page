@@ -1,0 +1,87 @@
+.testimonials-container {
+  .testimonials {
+    margin: 1rem 2.8rem;
+
+    &--content {
+      h2 {
+        padding: 1rem;
+        font-weight: 400;
+        font-size: 4.6rem;
+        text-align: center;
+        margin: 10rem 0 5rem 0;
+      }
+    }
+
+    &--items {
+      padding: 1.5rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 3rem;
+
+      .rectangle_img {
+        margin-bottom: 4.5rem;
+      }
+
+      h4 {
+        padding: 0.845rem;
+        font-weight: 700;
+        font-size: 13.53px;
+        text-align: center;
+        line-height: 16.91px;
+        margin-bottom: 4.5rem;
+      }
+
+      &--client {
+        display: flex;
+
+        img {
+          padding-right: 1.1rem;
+        }
+
+        &--content {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          h6 {
+            width: 75px;
+            height: 19.38px;
+            padding: 2px 0;
+            font-weight: 700;
+            font-size: 1rem;
+          }
+
+          p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            padding-bottom: 2px;
+          }
+        }
+      }
+    }
+
+    .button-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .text-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 65px;
+        width: 280px;
+        background-color: #38a3f1;
+        border-radius: 3.5rem;
+        font-weight: bold;
+        font-size: 2.2rem;
+        line-height: 3.3rem;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 10rem;
+      }
+    }
+  }
+}

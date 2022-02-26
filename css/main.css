@@ -433,3 +433,117 @@ p {
   color: #fff;
   margin: 5rem 7rem 8rem 7rem;
 }
+
+.testimonials-container .testimonials {
+  margin: 1rem 2.8rem;
+}
+
+.testimonials-container .testimonials--content h2 {
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 4.6rem;
+  text-align: center;
+  margin: 10rem 0 5rem 0;
+}
+
+.testimonials-container .testimonials--items {
+  padding: 1.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.testimonials-container .testimonials--items .rectangle_img {
+  margin-bottom: 4.5rem;
+}
+
+.testimonials-container .testimonials--items h4 {
+  padding: 0.845rem;
+  font-weight: 700;
+  font-size: 13.53px;
+  text-align: center;
+  line-height: 16.91px;
+  margin-bottom: 4.5rem;
+}
+
+.testimonials-container .testimonials--items--client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonials-container .testimonials--items--client img {
+  padding-right: 1.1rem;
+}
+
+.testimonials-container .testimonials--items--client--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testimonials-container .testimonials--items--client--content h6 {
+  width: 75px;
+  height: 19.38px;
+  padding: 2px 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.testimonials-container .testimonials--items--client--content p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 2px;
+}
+
+.testimonials-container .testimonials .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testimonials-container .testimonials .button-container .text-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  width: 280px;
+  background-color: #38a3f1;
+  border-radius: 3.5rem;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10rem;
+}
