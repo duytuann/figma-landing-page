@@ -250,3 +250,85 @@ html {
   padding: 5rem 0;
   width: 100%;
 }
+
+.cta-container {
+  color: #fff;
+  padding: 8rem 0;
+}
+
+.cta-container .cta {
+  padding: 2rem 0;
+}
+
+.cta-container .cta--content {
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.cta-container .cta--content h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  text-align: center;
+}
+
+.cta-container .cta--content h2 {
+  font-weight: 400;
+  font-size: 4.6rem;
+  line-height: 5.7rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cta-container .cta--action {
+  padding: 1rem;
+}
+
+.cta-container .cta--action h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.cta-container .cta--action p {
+  padding-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-align: center;
+}
+
+.cta-container .cta--action__subscribe {
+  margin: 1.2rem 1rem;
+}
+
+.cta-container .cta--action__subscribe input {
+  border-radius: 39px;
+  background-color: #f4f4f4;
+  height: 5.4rem;
+  width: 100%;
+}
+
+.cta-container .cta--action__subscribe input[type="text"]::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #18171d;
+  vertical-align: middle;
+  padding-left: 3.5rem;
+}
+
+.cta-container .cta--action__subscribe button {
+  color: #fff;
+  height: 5rem;
+  background-color: #ef2779;
+  border-radius: 3.5rem;
+  width: 100%;
+  margin: 1.2rem 0;
+  font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}

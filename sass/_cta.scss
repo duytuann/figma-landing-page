@@ -1,0 +1,78 @@
+// call to action xD
+.cta-container {
+  color: $text-color;
+  padding: 8rem 0;
+
+  .cta {
+    padding: 2rem 0;
+
+    &--content {
+      margin: 0 auto;
+      padding-bottom: 5rem;
+
+      h3 {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 3.3rem;
+        text-align: center;
+      }
+
+      h2 {
+        font-weight: 400;
+        font-size: 4.6rem;
+        line-height: 5.7rem;
+        text-align: center;
+        padding: 1rem;
+      }
+    }
+
+    &--action {
+      padding: 1rem;
+
+      h3 {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 3.3rem;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+
+      p {
+        padding-bottom: 1rem;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+        text-align: center;
+      }
+
+      &__subscribe {
+        margin: 1.2rem 1rem;
+
+        input {
+          border-radius: 39px;
+          background-color: #f4f4f4;
+          height: 5.4rem;
+          width: 100%;
+        }
+
+        input[type="text"]::-webkit-input-placeholder {
+          font-weight: 400;
+          font-size: 1.4rem;
+          color: #18171d;
+          vertical-align: middle;
+          padding-left: 3.5rem;
+        }
+
+        button {
+          color: #fff;
+          height: 5rem;
+          background-color: #ef2779;
+          border-radius: 3.5rem;
+          width: 100%;
+          margin: 1.2rem 0;
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}
