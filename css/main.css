@@ -672,3 +672,158 @@ p {
 .pricing-container .pricing--list .mgbt {
   margin-bottom: 5rem;
 }
+
+.contact-container {
+  background-color: #d6ebff;
+}
+
+.contact-container .contact {
+  padding: 10rem 2rem;
+}
+
+.contact-container .contact--content h2 {
+  padding: 1rem;
+  font-size: 4.6rem;
+  font-weight: normal;
+  text-align: center;
+  color: #252b42;
+}
+
+.contact-container .contact--content h4 {
+  color: #252b42;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.contact-container .contact--social {
+  margin: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-container .contact--social--media {
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.contact-container .contact .contact--list--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.8rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-container .contact .contact--list--wrapper .contact--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-container .contact .contact--list--wrapper .contact--list--item {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.contact-container .contact .contact--list--wrapper .contact--list--item h6 {
+  padding: 1rem;
+  margin-left: 1rem;
+  color: #252b42;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.contact-container .contact--action--form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 5rem;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+.contact-container .contact--action--form h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #252b42;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.contact-container .contact--action--form .contact--input {
+  margin-top: 4.5rem;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 5.4rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-container .contact--action--form .contact--input p {
+  color: #252b42;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+}
+
+.contact-container .contact--action--form .contact--message {
+  margin-top: 4.5rem;
+  height: 28rem;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.contact-container .contact--action--form .contact--message__send {
+  padding: 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.contact-container .contact--action--form .send-button {
+  border-radius: 3.5rem;
+  color: #fff;
+  background-color: #ef2779;
+  font-size: 1.6rem;
+  width: 14.5rem;
+  height: 5rem;
+  margin: 4.5rem 0 4.5rem 0;
+  border: none;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
