@@ -547,3 +547,128 @@ p {
   color: #fff;
   margin-bottom: 10rem;
 }
+
+.pricing-container .pricing {
+  margin: 0 2.8rem;
+}
+
+.pricing-container .pricing--content {
+  margin: 10rem 2.05rem 3rem 2.05rem;
+}
+
+.pricing-container .pricing--content h2 {
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 4.6rem;
+  text-align: center;
+  margin: 0.7rem 0;
+}
+
+.pricing-container .pricing--content h4 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.pricing-container .pricing--list {
+  margin: 5rem 1.2rem 10rem 1.2rem;
+}
+
+.pricing-container .pricing--list .bg-white {
+  background-color: #fff;
+}
+
+.pricing-container .pricing--list .bg-gradient {
+  background-image: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
+}
+
+.pricing-container .pricing--list--item {
+  border: 1px solid #dedede;
+  padding: 4rem;
+  border-radius: 1rem;
+}
+
+.pricing-container .pricing--list--item .item__heading {
+  padding-bottom: 3rem;
+}
+
+.pricing-container .pricing--list--item .item__heading h3 {
+  color: #252b42;
+  margin: 0.3rem 0;
+  text-align: start;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.pricing-container .pricing--list--item .item__heading h6 {
+  color: #252b42;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: start;
+}
+
+.pricing-container .pricing--list--item .item--price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 3rem;
+}
+
+.pricing-container .pricing--list--item .item--price h1 {
+  padding: 1rem;
+  color: #252b42;
+  font-weight: 900;
+  font-size: 5.5rem;
+}
+
+.pricing-container .pricing--list--item .item--price__month h3 {
+  color: #252b42;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.pricing-container .pricing--list--item .item--price__month h6 {
+  color: #252b42;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.pricing-container .pricing--list--item .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing-container .pricing--list--item .button-container .text-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  width: 236px;
+  background-color: #38a3f1;
+  border-radius: 3.5rem;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  text-align: center;
+  color: #fff;
+}
+
+.pricing-container .pricing--list .mgbt {
+  margin-bottom: 5rem;
+}
