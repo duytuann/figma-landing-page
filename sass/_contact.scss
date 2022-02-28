@@ -78,7 +78,9 @@
       }
 
       .contact--action {
-        width: 430px;
+        @include desktop {
+          width: 430px;
+        }
 
         &--form {
           display: flex;
