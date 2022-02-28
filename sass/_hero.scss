@@ -4,6 +4,24 @@
   .hero {
     padding: 3rem 2rem;
 
+    .scrct_mb {
+      display: block;
+      @include desktop {
+        display: none;
+      }
+    }
+
+    .scrct_dk {
+      display: none;
+      @include desktop {
+        display: block;
+        height: 577px;
+        width: 1033px;
+        margin: 0 auto;
+        margin-top: 5rem;
+      }
+    }
+
     &--content {
       padding: 5rem 0;
 

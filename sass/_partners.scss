@@ -24,6 +24,11 @@
 
     &--list {
       margin: 3rem 7rem 0 7rem;
+      @include desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
       &--item {
         padding-bottom: 3rem;
@@ -31,6 +36,9 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        @include desktop {
+          margin: 0 2.5rem;
+        }
 
         h6 {
           text-align: center;
