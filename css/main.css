@@ -1022,8 +1022,10 @@ p {
   font-size: 1.2rem;
 }
 
-.contact-container .contact--desktop--container .contact--action {
-  width: 430px;
+@media (min-width: 1024px) {
+  .contact-container .contact--desktop--container .contact--action {
+    width: 430px;
+  }
 }
 
 .contact-container .contact--desktop--container .contact--action--form {
