@@ -20,7 +20,7 @@ html {
 
 @media (min-width: 1024px) {
   .header-container {
-    background-image: url("../assets/background_desktop.png");
+    background-image: url("../assets/bg-desktop.png");
     background-size: cover;
   }
 }
@@ -39,14 +39,52 @@ html {
 }
 
 .header-container .nav-container__brand {
-  margin: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .header-container .nav-container__brand {
+    padding: 1rem;
+    margin: 0 2rem;
+  }
 }
 
 .header-container .content-container .content {
   padding: 3rem 2rem 0 2rem;
 }
 
-.header-container .content-container .content--intro h2 {
+@media (min-width: 1024px) {
+  .header-container .content-container .content {
+    padding: 0rem 8rem 8.4rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-container .content-container .content--frame {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.header-container .content-container .content--frame .content--intro h2 {
   padding: 5rem 3rem 0.7rem 3rem;
   margin: 1rem;
   color: #fff;
@@ -56,7 +94,16 @@ html {
   text-align: center;
 }
 
-.header-container .content-container .content--describe {
+@media (min-width: 1024px) {
+  .header-container .content-container .content--frame .content--intro h2 {
+    font-size: 5.5rem;
+    font-weight: 900;
+    text-align: left;
+    padding: 0;
+  }
+}
+
+.header-container .content-container .content--frame .content--describe {
   margin: 1rem;
   text-align: center;
   font-weight: 700;
@@ -65,8 +112,70 @@ html {
   color: #fff;
 }
 
+@media (min-width: 1024px) {
+  .header-container .content-container .content--frame .content--describe {
+    text-align: left;
+  }
+}
+
+.header-container .content-container .content--frame .button-container__desk {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .header-container .content-container .content--frame .button-container__desk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.header-container .content-container .content--frame .button-container__desk .text-button__desk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  width: 236px;
+  background-color: #fff;
+  border-radius: 3.5rem;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  text-align: center;
+  color: #38a3f1;
+  margin: 5rem 0rem 8rem 0rem;
+}
+
 .header-container .content-container .content .flatbrowser {
   max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .header-container .content-container .content .flatbrowser {
+    display: none;
+  }
+}
+
+.header-container .content-container .content .flatbrowser_desk {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .header-container .content-container .content .flatbrowser_desk {
+    display: block;
+  }
 }
 
 .header-container .content-container .content .button-container {
@@ -79,6 +188,12 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .header-container .content-container .content .button-container {
+    display: none;
+  }
 }
 
 .header-container .content-container .content .button-container .text-button {

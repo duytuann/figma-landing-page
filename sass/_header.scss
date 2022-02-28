@@ -2,7 +2,7 @@
   background-image: url("../assets/background_mobile.png");
   background-repeat: no-repeat;
   @include desktop {
-    background-image: url("../assets/background_desktop.png");
+    background-image: url("../assets/bg-desktop.png");
     background-size: cover;
   }
 
@@ -13,43 +13,108 @@
     align-items: center;
 
     &__brand {
-      margin: 1rem;
+      padding: 1rem;
+      @include desktop {
+        padding: 1rem;
+        margin: 0 2rem;
+      }
     }
   }
 
   .content-container {
     .content {
       padding: 3rem 2rem 0 2rem;
-
-      &--intro {
-        h2 {
-          padding: 5rem 3rem 0.7rem 3rem;
-          margin: 1rem;
-          color: $text-color;
-          font-size: 4.6rem;
-          font-weight: 400;
-          line-height: 5.7rem;
-          text-align: center;
-        }
+      @include desktop {
+        padding: 0rem 8rem 8.4rem 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
       }
 
-      &--describe {
-        margin: 1rem;
-        text-align: center;
-        font-weight: 700;
-        font-size: 1.6rem;
-        line-height: 2rem;
-        color: $text-color;
+      &--frame {
+        @include desktop {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .content--intro {
+          h2 {
+            padding: 5rem 3rem 0.7rem 3rem;
+            margin: 1rem;
+            color: $text-color;
+            font-size: 4.6rem;
+            font-weight: 400;
+            line-height: 5.7rem;
+            text-align: center;
+            @include desktop {
+              font-size: 5.5rem;
+              font-weight: 900;
+              text-align: left;
+              padding: 0;
+            }
+          }
+        }
+
+        .content--describe {
+          margin: 1rem;
+          text-align: center;
+          font-weight: 700;
+          font-size: 1.6rem;
+          line-height: 2rem;
+          color: $text-color;
+          @include desktop {
+            text-align: left;
+          }
+        }
+
+        .button-container__desk {
+          display: none;
+          @include desktop {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .text-button__desk {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 65px;
+            width: 236px;
+            background-color: #fff;
+            border-radius: 3.5rem;
+            font-weight: bold;
+            font-size: 2.2rem;
+            line-height: 3.3rem;
+            text-align: center;
+            color: #38a3f1;
+            margin: 5rem 0rem 8rem 0rem;
+          }
+        }
       }
 
       .flatbrowser {
         max-width: 100%;
+        @include desktop {
+          display: none;
+        }
+      }
+
+      .flatbrowser_desk {
+        display: none;
+        @include desktop {
+          display: block;
+        }
       }
 
       .button-container {
         display: flex;
         align-items: center;
         justify-content: center;
+        @include desktop {
+          display: none;
+        }
 
         .text-button {
           display: flex;
