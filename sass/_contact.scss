@@ -30,8 +30,8 @@
       }
 
       .social--list {
-        margin-left: 6.5rem;
         @include desktop {
+          margin-left: 6.5rem;
           display: flex;
           flex-direction: column-reverse;
           justify-content: center;
@@ -41,6 +41,7 @@
           margin: 5rem 0;
           display: flex;
           justify-content: center;
+          align-items: center;
 
           &--media {
             padding: 1rem;
