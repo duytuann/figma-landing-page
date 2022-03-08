@@ -13,6 +13,10 @@ html {
   background-color: #252b42;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header-container {
   background-image: url("../assets/background_mobile.png");
   background-repeat: no-repeat;
@@ -36,6 +40,37 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .header-container .nav-container .nav__toggler {
+    display: none;
+  }
+}
+
+.header-container .nav-container .nav__list {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .header-container .nav-container .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-right: 25px;
+  }
+}
+
+.header-container .nav-container .nav__list .nav__item {
+  padding: 1rem;
+  margin-right: 2rem;
+}
+
+.header-container .nav-container .nav__list .nav__item a {
+  color: #fff;
 }
 
 .header-container .nav-container__brand {
